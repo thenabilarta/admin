@@ -30,6 +30,11 @@ const opt = [
     ],
   },
   {
+    key: "categories",
+    label: "Category",
+    children: [{ key: "categories", label: "List" }],
+  },
+  {
     key: "consultant",
     label: "Consultant",
     children: [

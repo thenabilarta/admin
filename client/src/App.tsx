@@ -13,6 +13,7 @@ import Report from "./pages/Report/index";
 import ReportDetail from "./pages/ReportDetail/index";
 import ProductRequest from "./pages/ProductRequest/index";
 import ProductList from "./pages/ProductList/index";
+import CategoriesList from "./pages/CategoriesList/index";
 import ProductRequestDetail from "./pages/ProductRequestDetail";
 import ManageOneApplicants from "./pages/ManageOneApplicants/Index";
 import { Suspense } from "react";
@@ -25,6 +26,7 @@ const App: React.FC = () => {
           <Route path="" element={<Dashboard />} />
 
           <Route path="/products" element={<ProductList />} />
+          <Route path="/categories" element={<CategoriesList />} />
           <Route path="/product/request" element={<ProductRequest />} />
 
           <Route
